@@ -1,16 +1,29 @@
-# whisp
+# Whisp – A Reliable Chatting Application 💬
 
-A new Flutter project.
+Whisp is a modern cross-platform messaging app built with **Flutter** and **Firebase**. It delivers a smooth, fast, and secure chatting experience.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- Real-time messaging (Firebase backend)
+- Beautiful, responsive UI
+- User authentication (Email & Password)
+- Online/offline user indicators
+- Message timestamps
+- Secure Firestore data structure
+- Dark/light theme support
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter** (Frontend)
+- **Firebase Auth** (User Login)
+- **Cloud Firestore** (Messages)
+- **Firebase Storage** (Profile Pics, Media)
+- **GetX** (State management & Routing)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📦 Getting Started
+
+```bash
+git clone https://github.com/shehryarrafiq/Whisp.git
+cd Whisp
+flutter pub get
+flutter run
